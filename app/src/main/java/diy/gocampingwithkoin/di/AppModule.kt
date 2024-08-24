@@ -1,12 +1,14 @@
-package diy.gocampingwithkoin
+package diy.gocampingwithkoin.di
 
-import diy.gocampingwithkoin.Url.GOCAMPING_BASE_URL
+import diy.gocampingwithkoin.network.CampingService
+import diy.gocampingwithkoin.util.Url.GOCAMPING_BASE_URL
+import diy.gocampingwithkoin.Repository.Repository
+import diy.gocampingwithkoin.ViewModel.MyViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 import retrofit2.Converter
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
 
 val appModule = module{
 

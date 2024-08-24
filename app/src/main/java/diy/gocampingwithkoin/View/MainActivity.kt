@@ -1,10 +1,10 @@
-package diy.gocampingwithkoin
+package diy.gocampingwithkoin.View
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import kotlinx.coroutines.MainScope
-import kotlinx.coroutines.launch
+import diy.gocampingwithkoin.ViewModel.MyViewModel
+import diy.gocampingwithkoin.R
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class MainActivity : AppCompatActivity() {

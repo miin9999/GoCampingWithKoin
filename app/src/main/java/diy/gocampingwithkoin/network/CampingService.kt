@@ -1,6 +1,7 @@
-package diy.gocampingwithkoin
+package diy.gocampingwithkoin.network
 
-import diy.camping_model.CampingResponse
+import diy.gocampingwithkoin.BuildConfig
+import diy.gocampingwithkoin.model.camping_model.CampingResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

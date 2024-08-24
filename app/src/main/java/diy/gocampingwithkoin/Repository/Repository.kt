@@ -1,6 +1,7 @@
-package diy.gocampingwithkoin
+package diy.gocampingwithkoin.Repository
 
-import diy.camping_model.Item
+import diy.gocampingwithkoin.network.CampingService
+import diy.gocampingwithkoin.model.camping_model.Item
 
 class Repository (private val campingService: CampingService){
 
