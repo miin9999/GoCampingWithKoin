@@ -1,4 +1,4 @@
-package diy.gocampingwithkoin.model.camping_model
+package diy.gocampingwithkoin.model.camping_model.baseListModel
 
 
 import com.google.gson.annotations.SerializedName

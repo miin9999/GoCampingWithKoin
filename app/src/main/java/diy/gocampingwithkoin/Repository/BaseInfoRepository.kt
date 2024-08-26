@@ -1,9 +1,10 @@
 package diy.gocampingwithkoin.Repository
 
 import diy.gocampingwithkoin.network.CampingService
-import diy.gocampingwithkoin.model.camping_model.Item
+import diy.gocampingwithkoin.model.camping_model.baseListModel.Item
+import diy.gocampingwithkoin.model.camping_model.imageListModel.ImageItem
 
-class Repository (private val campingService: CampingService){
+class BaseInfoRepository (private val campingService: CampingService){
 
     suspend fun getGoCampingApiService(numOfRows: Int, pageNo: Int): List<Item?>? {
         return campingService.getCamping(numOfRows, pageNo)
@@ -13,5 +14,7 @@ class Repository (private val campingService: CampingService){
             ?.items
             ?.item
     }
+
+
 
 }

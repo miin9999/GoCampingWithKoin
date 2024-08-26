@@ -15,6 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GoCampingWithKoin"
         tools:targetApi="31">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAIUS7m4ueWJZMznP4TT6S3tVgM8c84XH4"/>
         <activity
             android:name=".View.MainActivity"
             android:exported="true">
